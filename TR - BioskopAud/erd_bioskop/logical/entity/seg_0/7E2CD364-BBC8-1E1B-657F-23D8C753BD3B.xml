@@ -1,0 +1,58 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="7E2CD364-BBC8-1E1B-657F-23D8C753BD3B" name="PEMBAYARAN">
+<createdBy>User</createdBy>
+<createdTime>2024-11-23 19:16:21 UTC</createdTime>
+<ownerDesignName>erd_bioskop</ownerDesignName>
+<engineerTo>
+<item key="6CA6EA69-08D9-7D5A-02D0-198F0205794F" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_pembayaran" id="5CBB1DDB-59A6-BDB3-01F7-F7E2E4A64E68">
+<createdBy>User</createdBy>
+<createdTime>2024-11-23 19:16:31 UTC</createdTime>
+<ownerDesignName>erd_bioskop</ownerDesignName>
+<engineerTo>
+<item key="6CA6EA69-08D9-7D5A-02D0-198F0205794F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="metode_pembayaran" id="5EBFB68E-8DB2-3310-6C31-38CF4B501EBB">
+<createdBy>User</createdBy>
+<createdTime>2024-11-23 19:16:54 UTC</createdTime>
+<ownerDesignName>erd_bioskop</ownerDesignName>
+<engineerTo>
+<item key="6CA6EA69-08D9-7D5A-02D0-198F0205794F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="B459CF53-6440-0BA7-3614-5196C78828F2" name="PEMBAYARAN PK">
+<createdBy>User</createdBy>
+<createdTime>2024-11-23 19:16:51 UTC</createdTime>
+<ownerDesignName>erd_bioskop</ownerDesignName>
+<engineerTo>
+<item key="6CA6EA69-08D9-7D5A-02D0-198F0205794F" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>5CBB1DDB-59A6-BDB3-01F7-F7E2E4A64E68</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

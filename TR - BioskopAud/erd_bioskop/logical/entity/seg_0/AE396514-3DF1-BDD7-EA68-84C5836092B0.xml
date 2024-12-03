@@ -1,0 +1,109 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="AE396514-3DF1-BDD7-EA68-84C5836092B0" name="ORDER_DETAILS">
+<createdBy>User</createdBy>
+<createdTime>2024-11-23 18:27:37 UTC</createdTime>
+<ownerDesignName>erd_bioskop</ownerDesignName>
+<engineerTo>
+<item key="6CA6EA69-08D9-7D5A-02D0-198F0205794F" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_detail_pesanan" id="73CF97E8-0793-E20F-6459-A08195877F18">
+<createdBy>User</createdBy>
+<createdTime>2024-11-23 19:33:22 UTC</createdTime>
+<ownerDesignName>erd_bioskop</ownerDesignName>
+<engineerTo>
+<item key="6CA6EA69-08D9-7D5A-02D0-198F0205794F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="jam_tayang" id="3D8CF02C-C10A-184F-CA6C-CE8349DCB246">
+<createdBy>User</createdBy>
+<createdTime>2024-11-23 18:27:37 UTC</createdTime>
+<ownerDesignName>erd_bioskop</ownerDesignName>
+<engineerTo>
+<item key="6CA6EA69-08D9-7D5A-02D0-198F0205794F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="jumlah" id="5B2E5B24-5E05-3B0E-6C7A-887D8531F005">
+<createdBy>User</createdBy>
+<createdTime>2024-11-23 18:40:31 UTC</createdTime>
+<ownerDesignName>erd_bioskop</ownerDesignName>
+<engineerTo>
+<item key="6CA6EA69-08D9-7D5A-02D0-198F0205794F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="harga" id="7873503E-D8D9-C625-9141-BC7D4884B9E7">
+<createdBy>User</createdBy>
+<createdTime>2024-11-23 19:32:56 UTC</createdTime>
+<ownerDesignName>erd_bioskop</ownerDesignName>
+<engineerTo>
+<item key="6CA6EA69-08D9-7D5A-02D0-198F0205794F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_film" id="A569ABD1-5BD7-5CDF-B16C-138F4B91D636">
+<createdBy>User</createdBy>
+<createdTime>2024-11-23 19:34:08 UTC</createdTime>
+<generatorID>7EC289FF-E509-BFBF-5DC1-62E155D79A05</generatorID>
+<ownerDesignName>erd_bioskop</ownerDesignName>
+<engineerTo>
+<item key="6CA6EA69-08D9-7D5A-02D0-198F0205794F" value="true"/>
+</engineerTo>
+<referedAttribute>33B6E3E9-94CD-3C60-5B15-8F71FCCAC8EF</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_pesanan" id="28D8ED56-44DB-2504-95E1-D99EEF8DC564">
+<createdBy>User</createdBy>
+<createdTime>2024-11-23 19:35:19 UTC</createdTime>
+<generatorID>D3613108-16CA-1B0B-BE06-C98CA35B8931</generatorID>
+<ownerDesignName>erd_bioskop</ownerDesignName>
+<engineerTo>
+<item key="6CA6EA69-08D9-7D5A-02D0-198F0205794F" value="true"/>
+</engineerTo>
+<referedAttribute>13405F6A-DEFC-6EB6-687C-8E3AC5E5F10A</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="406021AF-0F2C-C1F3-2E76-DA43595A0E41" name="ORDER PK">
+<createdBy>User</createdBy>
+<createdTime>2024-11-23 18:27:37 UTC</createdTime>
+<ownerDesignName>erd_bioskop</ownerDesignName>
+<engineerTo>
+<item key="6CA6EA69-08D9-7D5A-02D0-198F0205794F" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>73CF97E8-0793-E20F-6459-A08195877F18</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

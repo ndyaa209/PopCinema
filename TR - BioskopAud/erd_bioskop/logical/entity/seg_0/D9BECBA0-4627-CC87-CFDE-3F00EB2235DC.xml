@@ -1,0 +1,108 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D9BECBA0-4627-CC87-CFDE-3F00EB2235DC" name="FILM">
+<createdBy>User</createdBy>
+<createdTime>2024-11-23 18:21:10 UTC</createdTime>
+<ownerDesignName>erd_bioskop</ownerDesignName>
+<engineerTo>
+<item key="6CA6EA69-08D9-7D5A-02D0-198F0205794F" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_film" id="33B6E3E9-94CD-3C60-5B15-8F71FCCAC8EF">
+<createdBy>User</createdBy>
+<createdTime>2024-11-23 18:21:33 UTC</createdTime>
+<ownerDesignName>erd_bioskop</ownerDesignName>
+<engineerTo>
+<item key="6CA6EA69-08D9-7D5A-02D0-198F0205794F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="judul" id="4B4D2113-DF74-9E48-96D5-1DBA9F55031E">
+<createdBy>User</createdBy>
+<createdTime>2024-11-23 18:22:08 UTC</createdTime>
+<ownerDesignName>erd_bioskop</ownerDesignName>
+<engineerTo>
+<item key="6CA6EA69-08D9-7D5A-02D0-198F0205794F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="poster" id="760DEBD2-8D70-5AC0-FFCB-14A5A3287D05">
+<createdBy>User</createdBy>
+<createdTime>2024-11-23 18:23:09 UTC</createdTime>
+<ownerDesignName>erd_bioskop</ownerDesignName>
+<engineerTo>
+<item key="6CA6EA69-08D9-7D5A-02D0-198F0205794F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT010</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="deskripsi" id="DCC58D7C-93BB-4630-CBC9-8E9CC647C69E">
+<createdBy>User</createdBy>
+<createdTime>2024-11-23 18:23:27 UTC</createdTime>
+<ownerDesignName>erd_bioskop</ownerDesignName>
+<engineerTo>
+<item key="6CA6EA69-08D9-7D5A-02D0-198F0205794F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="trailer" id="9CFCDF47-EE18-210F-CEA7-4F08236E285E">
+<createdBy>User</createdBy>
+<createdTime>2024-11-23 18:23:47 UTC</createdTime>
+<ownerDesignName>erd_bioskop</ownerDesignName>
+<engineerTo>
+<item key="6CA6EA69-08D9-7D5A-02D0-198F0205794F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT016</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_genre" id="FCA78812-E7FA-E3F5-2BA1-BA9D8012BCD8">
+<createdBy>User</createdBy>
+<createdTime>2024-11-23 19:35:45 UTC</createdTime>
+<generatorID>54C8563B-7162-330D-787B-5E3A5E9E2DA0</generatorID>
+<ownerDesignName>erd_bioskop</ownerDesignName>
+<engineerTo>
+<item key="6CA6EA69-08D9-7D5A-02D0-198F0205794F" value="true"/>
+</engineerTo>
+<referedAttribute>0914FAE1-C3F3-0313-613D-707DAED152CD</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="45B2BF41-F94F-0460-8819-3EACED108BC2" name="FILM PK">
+<createdBy>User</createdBy>
+<createdTime>2024-11-23 18:22:05 UTC</createdTime>
+<ownerDesignName>erd_bioskop</ownerDesignName>
+<engineerTo>
+<item key="6CA6EA69-08D9-7D5A-02D0-198F0205794F" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>33B6E3E9-94CD-3C60-5B15-8F71FCCAC8EF</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

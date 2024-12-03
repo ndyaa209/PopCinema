@@ -1,0 +1,97 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="024074D5-21DB-FB75-646D-B44FBA06E0D4" name="ORDER">
+<createdBy>User</createdBy>
+<createdTime>2024-11-23 18:24:32 UTC</createdTime>
+<ownerDesignName>erd_bioskop</ownerDesignName>
+<engineerTo>
+<item key="6CA6EA69-08D9-7D5A-02D0-198F0205794F" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_pesanan" id="13405F6A-DEFC-6EB6-687C-8E3AC5E5F10A">
+<createdBy>User</createdBy>
+<createdTime>2024-11-23 18:24:40 UTC</createdTime>
+<ownerDesignName>erd_bioskop</ownerDesignName>
+<engineerTo>
+<item key="6CA6EA69-08D9-7D5A-02D0-198F0205794F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tgl_pemesanan" id="416207E8-0B53-CB5D-3914-49A32A615D7A">
+<createdBy>User</createdBy>
+<createdTime>2024-11-23 18:25:10 UTC</createdTime>
+<ownerDesignName>erd_bioskop</ownerDesignName>
+<engineerTo>
+<item key="6CA6EA69-08D9-7D5A-02D0-198F0205794F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="total_harga" id="24BF4DBE-BB2C-BA02-DEE8-9959CBE37ED1">
+<createdBy>User</createdBy>
+<createdTime>2024-11-23 19:30:36 UTC</createdTime>
+<ownerDesignName>erd_bioskop</ownerDesignName>
+<engineerTo>
+<item key="6CA6EA69-08D9-7D5A-02D0-198F0205794F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_pembayaran" id="1BBA7495-FBE2-8CC4-B198-2BA9A641FA91">
+<createdBy>User</createdBy>
+<createdTime>2024-11-23 19:34:25 UTC</createdTime>
+<generatorID>BB5F367F-1A64-2364-B588-897EDA15E5D7</generatorID>
+<ownerDesignName>erd_bioskop</ownerDesignName>
+<engineerTo>
+<item key="6CA6EA69-08D9-7D5A-02D0-198F0205794F" value="true"/>
+</engineerTo>
+<referedAttribute>5CBB1DDB-59A6-BDB3-01F7-F7E2E4A64E68</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_profil" id="F2A47A80-549E-043B-CCAC-9159EEF3E768">
+<createdBy>User</createdBy>
+<createdTime>2024-11-23 19:37:51 UTC</createdTime>
+<generatorID>58F99DBD-B768-8254-EEC1-973FA344240D</generatorID>
+<ownerDesignName>erd_bioskop</ownerDesignName>
+<engineerTo>
+<item key="6CA6EA69-08D9-7D5A-02D0-198F0205794F" value="true"/>
+</engineerTo>
+<referedAttribute>1F618B85-D712-5DE2-5033-5A521645F032</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="DA2E4682-F9E1-096E-D013-5C03DE8C0337" name="ORDER PK">
+<createdBy>User</createdBy>
+<createdTime>2024-11-23 18:24:58 UTC</createdTime>
+<ownerDesignName>erd_bioskop</ownerDesignName>
+<engineerTo>
+<item key="6CA6EA69-08D9-7D5A-02D0-198F0205794F" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>13405F6A-DEFC-6EB6-687C-8E3AC5E5F10A</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="erd_bioskop" id="390216EB-9936-52AD-FB69-BA32E114757D" version="3.5">
+<createdBy>User</createdBy>
+<createdTime>2024-11-23 18:20:48 UTC</createdTime>
+<ownerDesignName>erd_bioskop</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>390216EB-9936-52AD-FB69-BA32E114757D</designId>
+</OSDM_Design>
